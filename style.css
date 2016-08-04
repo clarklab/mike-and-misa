@@ -1,0 +1,18 @@
+*{font-family: "brandon-grotesque"; text-transform: uppercase;}
+
+body{margin:0; color:#B29A74;}
+
+.header {position: fixed; top:0; left:0; right:0; text-align: center;}
+
+.hero{height: 100vh; background-size:cover; background-position: center center;}
+
+.nag{position: fixed; bottom:0; left:0; right:0; text-align: center; transition:opacity .3s ease; opacity: 0;}
+.nag .button{border:none; background:#890058; color:#fff;}
+
+a.button{padding:15px 30px; color:#890058; text-decoration: none; border:4px solid #890058; display: inline-block;}
+
+.cover{background-size: cover; background-position: center center;}
+
+@media screen and (min-width: 800px) {
+	.h1{font-size:48px;}
+}
