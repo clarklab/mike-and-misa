@@ -1,10 +1,19 @@
 *{font-family: "brandon-grotesque"; text-transform: uppercase;}
 
+.dark-purple{color:#673050;}
+.tan{color:#B29A74;}
+.mint{color:#D7EDE3;}
+.magenta{color:#890058;}
+.off-white{color:#E7E1D5;}
+
+
 body{margin:0; color:#B29A74;}
 
 .header {position: fixed; top:0; left:0; right:0; text-align: center;}
 
 .hero{height: 100vh; background-size:cover; background-position: center center;}
+
+.mint-bg{background:#D7EDE3; color:#673050;}
 
 .nag{position: fixed; bottom:0; left:0; right:0; text-align: center; transition:opacity .3s ease; opacity: 0;}
 .nag .button{border:none; background:#890058; color:#fff;}
