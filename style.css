@@ -1,4 +1,4 @@
-*{font-family: "brandon-grotesque"; text-transform: uppercase;}
+*{font-family: "brandon-grotesque"; font-weight:400;}
 
 .dark-purple{color:#673050;}
 .tan{color:#B29A74;}
@@ -6,10 +6,19 @@
 .magenta{color:#890058;}
 .off-white{color:#E7E1D5;}
 
+.bold{font-weight:700;}
+.light{font-weight:300;}
+.uppercase{text-transform: uppercase;}
+.bold.uppercase{letter-spacing:.15em; line-height: 200%;}
+
+.line-height-0{line-height:0;}
+.table{width:100%;}
+.horizontal-rule{border-bottom:1px solid #673050; padding-bottom: 80px}
+
 
 body{margin:0; color:#B29A74;}
 
-.header {position: fixed; top:0; left:0; right:0; text-align: center;}
+.header {position: absolute; top:0; left:0; right:0; text-align: center;}
 
 .hero{height: 100vh; background-size:cover; background-position: center center;}
 
@@ -23,5 +32,5 @@ a.button{padding:15px 30px; color:#890058; text-decoration: none; border:4px sol
 .cover{background-size: cover; background-position: center center;}
 
 @media screen and (min-width: 800px) {
-	.h1{font-size:48px;}
+	.h2{font-size:48px;}
 }
