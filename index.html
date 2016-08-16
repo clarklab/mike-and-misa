@@ -11,12 +11,15 @@
 	<link rel="stylesheet" href="style.css">
 	<script>
 	$(window).scroll(function() {
-    if ($(window).scrollTop() > 100) {
-        $('.header div:first-child, .header div:last-child').css("opacity", 1);
+    if ($(window).scrollTop() > 200) {
+      $('.header div:first-child, .header div:last-child').css("opacity", 1);
     }
     else {
-        $('.header div:first-child, .header div:last-child').css("opacity", 0);
+      $('.header div:first-child, .header div:last-child').css("opacity", 0);
     }
+    var s = $(window).scrollTop();
+    opacityVal = ((100 - (s / 4))*.01);
+    $('.hero').css('opacity', opacityVal);
 	});</script>
 </head>
 

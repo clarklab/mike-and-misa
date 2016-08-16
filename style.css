@@ -19,7 +19,7 @@
 
 body{margin:0; color:#B29A74; padding-bottom:80px;}
 
-.header{position: fixed; bottom:0; left:0; right:0; text-align: center;}
+.header{position: fixed; bottom:0; left:0; right:0; text-align: center; z-index: 100;}
 .header a.bold{display: inline-block; width:130px; line-height: 80px; text-decoration: none; color:#B29A74;}
 .header div:first-child{opacity:0; text-align: right; padding-right:40px; transition:opacity .3s ease;}
 .header div:first-child a{text-align: right;}
