@@ -34,11 +34,21 @@ a.button{padding:30px 30px; color:#D7EDE3; text-decoration: none; background:#67
 
 .cover{background-size: cover; background-position: center center;}
 
+.blocks .block{position: relative;}
+.blocks .cover{padding-top: 56.5%;}
+
 @media screen and (min-width: 800px) {
 	.h2{font-size:48px;}
+
+	.blocks .block{padding-left:50%;}
+	.blocks .cover{padding-top:0; position: absolute; top:0; left:0; bottom:0; right:50%;}
+	.block:nth-child(even){padding-left:0; padding-right:50%;}
+	.block:nth-child(even) .cover{left:50%; right:0;}
 }
 
 @media screen and (max-width:500px){
+	.h1{font-size:24px;}
+
 	.header a.bold{width:100%; text-align: center !important; width:140px;}
 	.header div:first-child{padding:0; text-align: center;}
 	.header div:last-child{padding:0; text-align: center;}
