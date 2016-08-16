@@ -30,7 +30,7 @@ body{margin:0; color:#B29A74; padding-bottom:80px;}
 
 .mint-bg{background:#D7EDE3; color:#673050;}
 
-a.button{padding:30px 30px; color:#D7EDE3; text-decoration: none; background:#673050; display: inline-block;}
+a.button{padding:30px; color:#D7EDE3; text-decoration: none; background:#673050; display: inline-block;}
 
 .cover{background-size: cover; background-position: center center;}
 
@@ -48,6 +48,8 @@ a.button{padding:30px 30px; color:#D7EDE3; text-decoration: none; background:#67
 
 @media screen and (max-width:500px){
 	.h1{font-size:24px;}
+
+	a.button{font-size:14px; padding:20px 30px;}
 
 	.header a.bold{width:100%; text-align: center !important; width:140px;}
 	.header div:first-child{padding:0; text-align: center;}
