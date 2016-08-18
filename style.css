@@ -33,7 +33,7 @@ body{margin:0; color:#B29A74; padding-bottom:80px;}
 
 a.button{padding:10px 15px; color:#fff; text-decoration: none; background:#673050; display: inline-block;}
 a.button.h1, a.button.h2, a.button.h3{padding:30px;}
-.mint-bg a.button{color:#D7EDE3;}
+.mint-bg>a.button{color:#D7EDE3;}
 
 .cover{background-size: cover; background-position: center center;}
 
