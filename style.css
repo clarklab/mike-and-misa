@@ -16,6 +16,7 @@
 .table{width:100%;}
 .horizontal-rule{border-bottom:1px solid #673050; padding-bottom: 80px}
 
+.card{background: #fff; box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
 
 body{margin:0; color:#B29A74; padding-bottom:80px;}
 
@@ -30,7 +31,9 @@ body{margin:0; color:#B29A74; padding-bottom:80px;}
 
 .mint-bg{background:#D7EDE3; color:#673050;}
 
-a.button{padding:30px; color:#D7EDE3; text-decoration: none; background:#673050; display: inline-block;}
+a.button{padding:10px 15px; color:#fff; text-decoration: none; background:#673050; display: inline-block;}
+a.button.h1, a.button.h2, a.button.h3{padding:30px;}
+.mint-bg a.button{color:#D7EDE3;}
 
 .cover{background-size: cover; background-position: center center;}
 
@@ -49,7 +52,8 @@ a.button{padding:30px; color:#D7EDE3; text-decoration: none; background:#673050;
 @media screen and (max-width:500px){
 	.h1{font-size:24px;}
 
-	a.button{font-size:14px; padding:20px 30px;}
+	a.button.h1, a.button.h2, a.button.h3{font-size:14px; padding:20px 30px;}
+	a.button.block{width:100%; box-sizing:border-box;}
 
 	.header a.bold{width:100%; text-align: center !important; width:140px;}
 	.header div:first-child{padding:0; text-align: center;}
