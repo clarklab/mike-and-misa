@@ -50,6 +50,9 @@ iframe{position: fixed; width:100%; height:100%; top:0; left:0; right:0; bottom:
 	.blocks .cover{padding-top:0; position: absolute; top:0; left:0; bottom:0; right:50%;}
 	.block:nth-child(even){padding-left:0; padding-right:50%;}
 	.block:nth-child(even) .cover{left:50%; right:0;}
+
+	.rule{position: relative;}
+	.rule:after{content:" "; width:1px; height: 100%; position: absolute; top:0; right:0; background:#B29A74;}
 }
 
 @media screen and (max-width:500px){
