@@ -7,6 +7,8 @@
 .off-white{color:#E7E1D5;}
 .bg-white{background:#fff;}
 
+.tips a{color:#890058; text-decoration: none; background:rgba(137,0,88,.1); padding-right:5px; padding-left:5px; transition:.3s ease background;}
+.tips a:hover{background: transparent;}
 .bold{font-weight:700;}
 .light{font-weight:300;}
 .uppercase{text-transform: uppercase;}
@@ -36,7 +38,8 @@ body{margin:0; color:#B29A74; padding-bottom:80px;}
 
 a.button{padding:10px 15px; color:#fff; text-decoration: none; background:#673050; display: inline-block;}
 a.button.h1, a.button.h2, a.button.h3{padding:30px;}
-.mint-bg>a.button{color:#D7EDE3;}
+.mint-bg a.button{color:#D7EDE3;}
+.mint-bg .card a.button{color:#fff;}
 
 .cover{background-size: cover; background-position: center center;}
 
