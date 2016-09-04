@@ -30,6 +30,9 @@ body{margin:0; color:#B29A74; padding-bottom:80px;}
 .hero{height: 100vh; background-size:cover; background-position: center center;}
 
 .mint-bg{background:#D7EDE3 url(pattern.png); color:#673050;}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+.mint-bg{background:#D7EDE3 url(pattern@2x.png); background-size:1000px;}   
+}
 
 a.button{padding:10px 15px; color:#fff; text-decoration: none; background:#673050; display: inline-block;}
 a.button.h1, a.button.h2, a.button.h3{padding:30px;}
