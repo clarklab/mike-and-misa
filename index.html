@@ -46,13 +46,31 @@
     opacityVal = ((100 - (s / 4))*.01);
     $('.hero').css('opacity', opacityVal);
 	});
-	window.onload = function () {
-if (typeof history.pushState === "function") {
-    history.pushState("jibberish", null, null);
-    window.onpopstate = function () {
-        history.pushState('newjibberish', null, null);
-        alert();
-    };
+
+window.onload = function () {
+    if (typeof history.pushState === "function") {
+        history.pushState("jibberish", null, null);
+        window.onpopstate = function () {
+            history.pushState('newjibberish', null, null);
+            alert();
+        };
+    }
+    else {
+        var ignoreHashChange = true;
+        window.onhashchange = function () {
+            if (!ignoreHashChange) {
+                ignoreHashChange = true;
+                window.location.hash = Math.random();
+                // Detect and redirect change here
+                // Works in older FF and IE9
+                // * it does mess with your hash symbol (anchor?) pound sign
+                // delimiter on the end of the URL
+            }
+            else {
+                ignoreHashChange = false;   
+            }
+        };
+    }
 }
 	</script>	
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
