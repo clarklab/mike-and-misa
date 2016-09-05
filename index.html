@@ -47,8 +47,17 @@
     $('.hero').css('opacity', opacityVal);
 	});
 	window.onbeforeunload = function (e) {
-		alert();
-}
+            var e = e || window.event;
+            var msg = "Do you really want to leave this page?"
+
+            // For IE and Firefox
+            if (e) {
+                e.returnValue = msg;
+            }
+
+            // For Safari / chrome
+            return msg;
+         };
 	</script>	
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
