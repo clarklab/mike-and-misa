@@ -52,7 +52,8 @@ window.onload = function () {
         history.pushState("jibberish", null, null);
         window.onpopstate = function () {
             history.pushState('newjibberish', null, null);
-            alert();
+            $("iframe").fadeOut();
+	  		$(".close").fadeOut();
         };
     }
     else {
