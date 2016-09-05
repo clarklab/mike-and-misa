@@ -38,6 +38,8 @@ body{margin:0; color:#8e7e4c; padding-bottom:80px;}
 
 a.button{padding:10px 15px; color:#fff; text-decoration: none; background:#673050; display: inline-block;}
 a.button.h1, a.button.h2, a.button.h3{padding:30px;}
+a.button.block{width:100%; box-sizing:border-box;}
+
 .mint-bg a.button{color:#D7EDE3;}
 .mint-bg .card a.button{color:#fff;}
 
@@ -78,7 +80,6 @@ iframe{position: fixed; width:100%; height:100%; top:0; left:0; right:0; bottom:
 	.h1{font-size:24px;}
 
 	a.button.h1, a.button.h2, a.button.h3{font-size:14px; padding:20px 30px;}
-	a.button.block{width:100%; box-sizing:border-box;}
 
 	.header a.bold{width:100%; width:140px;}
 	.header div:first-child a, .header div:last-child a{text-align: center;}
