@@ -4,7 +4,7 @@
 .tan{color:#8e7e4c;}
 .mint{color:#D7EDE3;}
 .magenta{color:#890058;}
-.off-white{color:#E7E1D5;}
+.off-white{color:#efede8;}
 .bg-white{background:#fff;}
 
 .tips a{color:#890058; text-decoration: none; background:rgba(137,0,88,.1); padding-right:5px; padding-left:5px; transition:.3s ease background;}
@@ -35,6 +35,7 @@ body{margin:0; color:#8e7e4c; padding-bottom:80px;}
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
 .mint-bg{background:#D7EDE3 url(pattern@2x.png); background-size:1000px;}   
 }
+.tan-bg{background:#efede8;}
 
 a.button{padding:10px 15px; color:#fff; text-decoration: none; background:#673050; display: inline-block;}
 a.button.h1, a.button.h2, a.button.h3{padding:30px;}
