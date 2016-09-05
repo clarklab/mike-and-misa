@@ -46,6 +46,27 @@
     opacityVal = ((100 - (s / 4))*.01);
     $('.hero').css('opacity', opacityVal);
 	});
+	jQuery(document).ready(function($) {
+
+  if (window.history && window.history.pushState) {
+
+    $(window).on('popstate', function() {
+      var hashLocation = location.hash;
+      var hashSplit = hashLocation.split("#!/");
+      var hashName = hashSplit[1];
+
+      if (hashName !== '') {
+        var hash = window.location.hash;
+        if (hash === '') {
+          alert('Back button was pressed.');
+        }
+      }
+    });
+
+    window.history.pushState('forward', null, './#forward');
+  }
+
+});
 	</script>	
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -93,6 +114,7 @@
 </div>
 
 <section class="clearfix max-width-4 mx-auto mt4 center mb4 py4 h3 tips">
+	<img src="map.svg" alt="">
 	<p class="mt0 mb0 bold uppercase">While in Mexico</p>
 	<p class="mt0 mb1 light">Remember</p>
 	<p class="mt0 mb4 light"><img src="resort-icon.svg" width="32" height="32" alt=""></p>
