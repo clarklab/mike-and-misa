@@ -15,7 +15,7 @@
 .light{font-weight:300;}
 .uppercase{text-transform: uppercase;}
 .bold.uppercase{letter-spacing:.15em; line-height: 200%;}
-.bold.uppercase.small{letter-spacing:.15em; line-height: 150%;}
+.bold.uppercase.small{letter-spacing:.15em; line-height: 150%; margin-top:100px;}
 
 
 .line-height-0{line-height:0;}
