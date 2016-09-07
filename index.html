@@ -29,6 +29,12 @@
 	  	$(".close").fadeIn();
 	  	return false;
 	  });
+	   $("a.story").click(function() {
+	  	$("iframe").fadeOut();
+	  	$("iframe.story").fadeIn();
+	  	$(".close").fadeIn();
+	  	return false;
+	  });
 	  $("a.close").click(function() {
 	  	$("iframe").fadeOut();
 	  	$(".close").fadeOut();
@@ -160,15 +166,15 @@ window.onload = function () {
 	<div class="clearfix block center">
 		<div class="cover" style="background-image:url(trees.jpg);"></div>
 		<div class="py4">
-		<p class="h3 mt4 mb3 light px3">We're not registered, but if you insist</p>
-	    <a href="gift" class="button h3 bold uppercase mb4 gift">Send a gift</a>
+		<p class="h3 mt4 mb3 light px3">How did we end up together? Well...</p>
+	    <a href="story" class="button h3 bold uppercase mb4 story">Our Story</a>
 	    </div>
 	</div>
 	<div class="clearfix block center">
 		<div class="cover" style="background-image:url(wall.jpg);"></div>
 		<div class="py4">
 		<p class="h3 mt4 mb3 light px3">Can't make Mexico, but want to join us in Lubbock?</p>
-	    <a href="gift" class="button h3 bold uppercase mb4" href="https://docs.google.com/forms/d/e/1FAIpQLSe2PNJ1pXJRQ2D9odmefEKH4NxWw1He48Lo_Q3SjxMAo_dp4w/viewform">RSVP for Lubbock Reception</a>
+	    <a class="button h3 bold uppercase mb4" href="https://docs.google.com/forms/d/e/1FAIpQLSe2PNJ1pXJRQ2D9odmefEKH4NxWw1He48Lo_Q3SjxMAo_dp4w/viewform">RSVP for Lubbock Reception</a>
 	    </div>
 	</div>
 </section>
@@ -215,6 +221,8 @@ window.onload = function () {
 <iframe src="join/index.htm?close=yes" frameborder="0" class="join"></iframe>
 <iframe src="resort/index.htm?close=yes" frameborder="0" class="resort"></iframe>
 <iframe src="gift/index.htm?close=yes" frameborder="0" class="gift"></iframe>
+<iframe src="story/index.htm?close=yes" frameborder="0" class="story"></iframe>
+
 
 </body>
 </html>
