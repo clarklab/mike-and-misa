@@ -41,7 +41,7 @@ body{margin:0; color:#8e7e4c; padding-bottom:80px;}
 }
 .tan-bg{background:#efede8;}
 
-a.button{padding:10px 15px; color:#fff; text-decoration: none; background:#673050; display: inline-block;}
+a.button{padding:10px 20px; color:#fff; text-decoration: none; background:#673050; display: inline-block;}
 a.button.big {padding:30px;}
 a.button.block{width:100%; box-sizing:border-box;}
 a.button:hover{background: #890058;}
